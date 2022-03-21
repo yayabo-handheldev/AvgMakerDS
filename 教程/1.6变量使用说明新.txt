@@ -1,0 +1,16 @@
+1.6版中，申请的变量可全局使用。也就是以前写数字的地方，都支持变量替换使用。
+使用时用$()标记
+
+以下简单举个例子
+@set_var(var, 100);
+@set_var(var2, 1);
+@say(0,0,,"var = $(var), var2 = $(var2)");
+@set_value($(var2) + $(var));
+@say(0,0,,"var = $(var), var2 = $(var2)");
+
+
+@set_var(tx, 20);
+@set_var(ty, 20);
+@set_var(width, 200);
+@set_var(height, 150);
+@boxText(1,$(tx),$(ty),$(width),$(height),0,"good!"); 

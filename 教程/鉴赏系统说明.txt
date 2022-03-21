@@ -1,0 +1,41 @@
+图片模式下
+
+命令
+picpage <页数>;   图片模式页数 页数为0的话，图片模式取消
+picbg <页号>,<路径>; 用于图片模式某页的背景 
+pic <序号>,<路径>; 图片 每页9张 3排×3列
+选择框大小为48×36 第一个左上角坐标为（20,10）左右间距10 上下间距10
+
+musicpage <页数>;  音乐模式页数 页数为0的话，音乐模式取消
+musicbg <页号>,<路径>;   用于音乐模式某页的背景
+music <序号>,<路径>;   音乐 每页8 4排×2列
+选择框大小为92×16 第一个左上角坐标为（20,10）左右间距36 上下间距26
+//--------------------------------------------
+加载背景时可以用到以下模板
+AVGmakerDS_revriew模板.7z(压缩包内)
+
+picture模式的模板，具体坐标已经标出
+大家可以在photoshop或者其他一些图片编辑软件中把cg图片缩小后放置相应位置，
+图片序号从0开始，由左至右依次递增。
+
+music模式的模板，具体坐标已经标出
+这个同样可以在ps中把对应位置用歌曲名填上。
+歌曲序号冲0开始，由左至右依次递增。
+
+特别感谢yh90219同学提供的模板和纠错，及教程http://www.yayabo.cn/thread-871-1-1.html
+//--------------------------------------------
+直接建立文本文件
+如review.txt
+
+picpage 0;
+
+pic 0,"avgFiles/bg/bg.res","sora_ame01"
+pic 1,"avgFiles/bg/bg.res","a005"
+pic 2,"avgFiles/bg/bg.res","sora02"
+pic 3,"avgFiles/bg/bg.res","b"
+picbg 0,"avgFiles/bg/bg.res","b"
+
+musicpage 1;
+musicbg 0,"avgFiles/bg/bg.res","w"
+music 0,"avgFiles/bgm/2eb021.mp3","\n    歌曲NO.1"
+music 1,"avgFiles/bgm/2eb022.mp3","\n    歌曲NO.2"

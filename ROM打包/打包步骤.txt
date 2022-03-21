@@ -1,0 +1,9 @@
+脚本要改一下
+在最开始加这句
+@SetGameName(xxxxx);
+xxxx是设置存档文件名
+解包后 先运行文件夹中的_dump.bat
+然后把avgFiles放入data目录里
+再运行pack.bat 会生成pack.nds
+最后运行 efs.bat
+然后pack.nds 就是最终ROM

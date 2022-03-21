@@ -1,0 +1,1 @@
+@res_bg(avgFiles/bg/bg.res,NULL,2);

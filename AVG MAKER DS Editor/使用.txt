@@ -1,0 +1,1 @@
+使用时将AVG MAKER DS Editor.exe和tools文件夹置同意目录
